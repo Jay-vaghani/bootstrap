@@ -1,0 +1,18 @@
+There six default breakpoints in bootstrap
+
+Breakpoints points                  Classes
+
+(1) Extra small: <576px             None    
+(2) small: 	≥576px                  sm
+(3) Medium: ≥768px                  md
+(4) Large: 	≥992px                  lg
+(5) Extra large: ≥1200px            xl
+(6) Extra extra large: ≥1400px      xxl
+
+
+New In Bootstrap 5 
+
+(6) Extra extra large: ≥1400px      xxl
+
+
+

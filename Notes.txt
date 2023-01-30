@@ -1,6 +1,8 @@
-=>  You can define different breakpoints on col to determine size of call in different screen size
+=>  You can also use row-col class to define each and every col size inside that row
+the row-col range is row-col-1 to row-col-12 
 
-There six default breakpoints in bootstrap like ve saw in previous part and in col you can use those breakpoints
+
+=>  you can also use six different bootstrap breakpoints in row-col class to adjust       different width of the col in row 
 
 Breakpoints points                              Classes
 

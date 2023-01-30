@@ -1,8 +1,9 @@
-=>  You can also use row-col class to define each and every col size inside that row
-the row-col range is row-col-1 to row-col-12 
+=>  In bootstrap there is a class offset it is use to create space between col's inside row 
+
+=> the range of this offset is offset-1 to offset-11
 
 
-=>  you can also use six different bootstrap breakpoints in row-col class to adjust       different width of the col in row 
+=>  you can also use six different bootstrap breakpoints in offset class to adjust       different space between the col in different screen size  
 
 Breakpoints points                              Classes
 

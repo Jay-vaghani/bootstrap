@@ -18,235 +18,98 @@
 
 
 
-    <!-- (1) One col class will take 100% of the row width -->
+    <!-- (1) Different breakpoints in col -->
 
-    <div class="container-fluid  p-5 my-4 bg-primary">
 
-        <div class="row p-5 bg-info">
+    <div class="container-fluid my-5 p-5 bg-primary bg-gradient">
 
-            <div class="col p-5 bg-light"></div>
 
+        <div class="row p-5 bg-info bg-gradient my-4">
+            <div class="col-sm-6 p-5 bg-primary "></div>
+            <div class="col-sm-6 p-5 bg-primary-subtle "></div>
         </div>
 
-    </div>
 
-
-    <!-- (2) Two col class will take 50% of the row width each -->
-
-
-
-    <div class="container-fluid  p-5 my-4 bg-primary">
-
-        <div class="row p-5 bg-info">
-
-            <div class="col p-5 bg-light "></div>
-            <div class="col p-5 bg-primary-subtle "></div>
-
+        <div class="row p-5 bg-info bg-gradient my-4">
+            <div class="col-md-4 p-5 bg-primary "></div>
+            <div class="col-md-4 p-5 bg-primary-subtle "></div>
+            <div class="col-md-4 p-5 bg-secondary "></div>
         </div>
 
-    </div>
-
-
-    <!-- (3) Three col class will take 33% of the row width each -->
-
-
-    <div class="container-fluid  p-5 my-4 bg-primary">
-
-        <div class="row p-5 bg-info">
-
-            <div class="col p-5 bg-light "></div>
-            <div class="col p-5 bg-primary-subtle "></div>
-            <div class="col p-5 bg-danger-subtle "></div>
-
-        </div>
-    </div>
-
-
-    <!-- (4) You can add as many col as you want and they will adjust there width evenly  -->
-
-
-    <div class="container-fluid  p-5 my-4 bg-primary">
-
-        <div class="row p-5 bg-info">
-
-            <div class="col p-5 bg-primary "></div>
-            <div class="col p-5 bg-primary-subtle "></div>
-            <div class="col p-5 bg-secondary "></div>
-            <div class="col p-5 bg-secondary-subtle "></div>
-            <div class="col p-5 bg-success"></div>
-            <div class="col p-5 bg-success-subtle "></div>
-            <div class="col p-5 bg-danger "></div>
-            <div class="col p-5 bg-danger-subtle "></div>
-
+        <div class="row p-5 bg-info bg-gradient my-4">
+            <div class="col-lg-3 p-5 bg-primary "></div>
+            <div class="col-lg-3 p-5 bg-primary-subtle "></div>
+            <div class="col-lg-3 p-5 bg-secondary "></div>
+            <div class="col-lg-3 p-5 bg-secondary-subtle "></div>
         </div>
 
+        <div class="row p-5 bg-info bg-gradient my-4">
+            <div class="col-xl-2 p-5 bg-primary "></div>
+            <div class="col-xl-2 p-5 bg-primary-subtle "></div>
+            <div class="col-xl-2 p-5 bg-secondary "></div>
+            <div class="col-xl-2 p-5 bg-secondary-subtle "></div>
+            <div class="col-xl-2 p-5 bg-success"></div>
+            <div class="col-xl-2 p-5 bg-success-subtle "></div>
+        </div>
+
+
+        <div class="row p-5 bg-info bg-gradient my-4">
+            <div class="col-xxl-1 p-5 bg-primary "></div>
+            <div class="col-xxl-1 p-5 bg-primary-subtle "></div>
+            <div class="col-xxl-1 p-5 bg-secondary "></div>
+            <div class="col-xxl-1 p-5 bg-secondary-subtle "></div>
+            <div class="col-xxl-1 p-5 bg-success"></div>
+            <div class="col-xxl-1 p-5 bg-success-subtle "></div>
+            <div class="col-xxl-1 p-5 bg-danger "></div>
+            <div class="col-xxl-1 p-5 bg-danger-subtle "></div>
+            <div class="col-xxl-1 p-5 bg-warning "></div>
+            <div class="col-xxl-1 p-5 bg-warning-subtle "></div>
+            <div class="col-xxl-1 p-5 bg-info"></div>
+            <div class="col-xxl-1 p-5 bg-info-subtle "></div>
+        </div>
     </div>
 
 
 
-    <!-- (5) One thing you have to keep in mind that col will adjust there width evenly but to the cretan point what i mean is the if there is any width you have gave to column then they will break and go to second line and adjust there width evenly what i mean is we have created these box using padding and padding is 48px that is why the size of the box is (96px X 96px) when we break the the limit of 96px in width it will create new line -->
-
-    <!-- Also these are all background color you can use from bootstrap all subtle version of every background color is lighter version of there original colors there are also gradient version of these colors you can check theme out in bootstrap documentation you don't have to remember each and every colors it is something you should be aware about so that you can use them in future projects -->
+    <!-- (2)  breakpoints in col with different combination -->
 
 
-    <div class="container-fluid  p-5 my-4 bg-primary">
+    <div class="container-fluid my-5 p-5 bg-primary bg-gradient">
 
-        <div class="row p-5 bg-info bg-gradient">
 
-            <div class="col p-5 bg-primary "></div>
-            <div class="col p-5 bg-primary-subtle "></div>
-            <div class="col p-5 bg-secondary "></div>
-            <div class="col p-5 bg-secondary-subtle "></div>
-            <div class="col p-5 bg-success"></div>
-            <div class="col p-5 bg-success-subtle "></div>
-            <div class="col p-5 bg-danger "></div>
-            <div class="col p-5 bg-danger-subtle "></div>
-            <div class="col p-5 bg-warning "></div>
-            <div class="col p-5 bg-warning-subtle "></div>
-            <div class="col p-5 bg-info"></div>
-            <div class="col p-5 bg-info-subtle "></div>
-            <div class="col p-5 bg-light "></div>
-            <div class="col p-5 bg-light-subtle "></div>
-            <div class="col p-5 bg-dark "></div>
-            <div class="col p-5 bg-dark-subtle "></div>
-            <div class="col p-5 bg-body-secondary "></div>
-            <div class="col p-5 bg-body-tertiary "></div>
-            <div class="col p-5 bg-body "></div>
-            <div class="col p-5 bg-black "></div>
-            <div class="col p-5 bg-white "></div>
-            <div class="col p-5 bg-transparent "><b>Transparent Background</b></div>
-
+        <div class="row p-5 bg-info bg-gradient my-4">
+            <div class="col-lg-4 col-md-12 p-5 bg-primary "></div>
+            <div class="col-lg-4 col-md-12 p-5 bg-primary-subtle "></div>
+            <div class="col-lg-4 col-md-12 p-5 bg-secondary "></div>
         </div>
 
-    </div>
-
-
-
-    <!-- (6) you can also use different size of col using 12 different rang of col which is col-1 to col-12 -->
-
-
-
-    <div class="container-fluid  p-5 my-4 bg-primary">
-
-        <div class="row p-5 bg-info bg-gradient my-1">
-
-            <div class="col-12 p-4 bg-primary "></div>
-
+        <div class="row p-5 bg-info bg-gradient my-4">
+            <div class="col-lg-3 col-md-4 col-sm-12 p-5 bg-primary "></div>
+            <div class="col-lg-3 col-md-4 col-sm-12 p-5 bg-primary-subtle "></div>
+            <div class="col-lg-3 col-md-4 col-sm-12 p-5 bg-secondary "></div>
+            <div class="col-lg-3 col-md-4 col-sm-12 p-5 bg-secondary-subtle "></div>
         </div>
 
-        <div class="row p-5 bg-info bg-gradient my-1">
 
-            <div class="col-6 p-4 bg-primary "></div>
-            <div class="col-6 p-4 bg-primary-subtle "></div>
-
-        </div>
-
-        <div class="row p-5 bg-info bg-gradient my-1">
-
-            <div class="col-4 p-4 bg-primary "></div>
-            <div class="col-4 p-4 bg-primary-subtle "></div>
-            <div class="col-4 p-4 bg-secondary "></div>
-
-        </div>
-
-        <div class="row p-5 bg-info bg-gradient my-1">
-
-            <div class="col-3 p-4 bg-primary "></div>
-            <div class="col-3 p-4 bg-primary-subtle "></div>
-            <div class="col-3 p-4 bg-secondary "></div>
-            <div class="col-3 p-4 bg-secondary-subtle "></div>
-
-
-        </div>
-
-        <div class="row p-5 bg-info bg-gradient my-1">
-
-            <div class="col-2 p-4 bg-primary "></div>
-            <div class="col-2 p-4 bg-primary-subtle "></div>
-            <div class="col-2 p-4 bg-secondary "></div>
-            <div class="col-2 p-4 bg-secondary-subtle "></div>
-            <div class="col-2 p-4 bg-danger "></div>
-            <div class="col-2 p-4 bg-danger-subtle "></div>
-        </div>
-
-        <div class="row p-5 bg-info bg-gradient my-1">
-
-            <div class="col-1 p-4 bg-primary "></div>
-            <div class="col-1 p-4 bg-primary-subtle "></div>
-            <div class="col-1 p-4 bg-secondary "></div>
-            <div class="col-1 p-4 bg-secondary-subtle "></div>
-            <div class="col-1 p-4 bg-success"></div>
-            <div class="col-1 p-4 bg-success-subtle "></div>
-            <div class="col-1 p-4 bg-danger "></div>
-            <div class="col-1 p-4 bg-danger-subtle "></div>
-            <div class="col-1 p-4 bg-warning "></div>
-            <div class="col-1 p-4 bg-warning-subtle "></div>
-            <div class="col-1 p-4 bg-info"></div>
-            <div class="col-1 p-4 bg-info-subtle"></div>
-
+        <div class="row p-5 bg-info bg-gradient my-4">
+            <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 p-5 bg-primary "></div>
+            <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 p-5 bg-primary-subtle "></div>
+            <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 p-5 bg-secondary "></div>
+            <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 p-5 bg-secondary-subtle "></div>
+            <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 p-5 bg-success"></div>
+            <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 p-5 bg-success-subtle "></div>
+            <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 p-5 bg-danger "></div>
+            <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 p-5 bg-danger-subtle "></div>
+            <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 p-5 bg-warning "></div>
+            <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 p-5 bg-warning-subtle "></div>
+            <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 p-5 bg-info"></div>
+            <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 p-5 bg-info-subtle "></div>
         </div>
 
 
     </div>
 
 
-    <!--(7) Inside one row you can only use 12 col-1 which means that you can only use 12 col -->
-
-
-    <div class="container-fluid  p-5 my-4 bg-primary">
-
-        <div class="row p-5 bg-info bg-gradient my-1">
-            <div class="col-1 p-4 bg-primary "></div>
-            <div class="col-1 p-4 bg-primary-subtle "></div>
-            <div class="col-1 p-4 bg-secondary "></div>
-            <div class="col-1 p-4 bg-secondary-subtle "></div>
-            <div class="col-1 p-4 bg-success"></div>
-            <div class="col-1 p-4 bg-success-subtle "></div>
-            <div class="col-1 p-4 bg-danger "></div>
-            <div class="col-1 p-4 bg-danger-subtle "></div>
-            <div class="col-1 p-4 bg-warning "></div>
-            <div class="col-1 p-4 bg-warning-subtle "></div>
-            <div class="col-1 p-4 bg-info"></div>
-            <div class="col-1 p-4 bg-info-subtle"></div>
-            <div class="col-1 p-4 bg-light "></div>
-
-        </div>
-    </div>
-
-
-    <!-- (7) you can also use different size combination on col range but the total number should not be exceed above 12 -->
-
-
-
-    <div class="container-fluid  p-5 my-4 bg-primary">
-
-
-        <div class="row p-5 bg-info bg-gradient my-1">
-
-            <div class="col-1 p-4 bg-primary "></div>
-            <div class="col-11 p-4 bg-primary-subtle "></div>
-
-        </div>
-
-        <div class="row p-5 bg-info bg-gradient my-1">
-
-            <div class="col-2 p-4 bg-primary "></div>
-            <div class="col-3 p-4 bg-primary-subtle "></div>
-            <div class="col-7 p-4 bg-secondary "></div>
-
-        </div>
-
-        <div class="row p-5 bg-info bg-gradient my-1">
-
-            <div class="col-4 p-4 bg-primary "></div>
-            <div class="col-2 p-4 bg-primary-subtle "></div>
-            <div class="col-3 p-4 bg-secondary "></div>
-            <div class="col-3 p-4 bg-secondary-subtle "></div>
-
-
-        </div>
-
-    </div>
 
     <!-- Bootstrap Javascript  -->
 
@@ -255,3 +118,7 @@
 </body>
 
 </html>
+
+
+
+

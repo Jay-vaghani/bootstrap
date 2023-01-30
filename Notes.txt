@@ -1,15 +1,17 @@
-=>  Bootstrap’s grid system is built with flexbox it uses column property as box to build layout there are certain method's to implement column to  build layout
+=>  You can define different breakpoints on col to determine size of call in different screen size
 
-(1) you have to create container (any size)
-(2) inside that container create row
+There six default breakpoints in bootstrap like ve saw in previous part and in col you can use those breakpoints
 
-=>  Now what is row 
+Breakpoints points                              Classes
 
-you can think of row class as a empty div with css property of display flex
+(1) Extra small: <576px                         None    
+(2) small: 	≥576px to 768px                     sm
+(3) Medium: ≥768px to 992px                     md
+(4) Large: 	≥992px to 1200px                    lg
+(5) Extra large: ≥1200px to 1400px              xl
+(6) Extra extra large: ≥1400px                  xxl
 
-(3) in side row you can use col class to create different box
 
-=>  You can also use different breakpoints to decide width of each and every column
+New In Bootstrap 5 
 
-=> there are only 12 column you can create inside in row 
-
+(6) Extra extra large: ≥1400px      xxl

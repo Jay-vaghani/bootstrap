@@ -1,9 +1,9 @@
-=>  In bootstrap there is a class offset it is use to create space between col's inside row 
+=>  In bootstrap there is a class order it like flex order it is use to define position of different col's in row
 
-=> the range of this offset is offset-1 to offset-11
+=> the range of this order is order-0 to order-5 and also there are order-first and order-last
 
 
-=>  you can also use six different bootstrap breakpoints in offset class to adjust       different space between the col in different screen size  
+=>  you can also use six different bootstrap breakpoints in order class to decide the position of different col's in row in different screen size
 
 Breakpoints points                              Classes
 

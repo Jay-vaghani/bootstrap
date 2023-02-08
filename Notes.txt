@@ -1,9 +1,10 @@
-=>  In bootstrap there is a class order it like flex order it is use to define position of different col's in row
+=>  Nested col in bootstrap is when you create multiple cols inside col 
 
-=> the range of this order is order-0 to order-5 and also there are order-first and order-last
+=> inside created col you have to create row and inside row you can create cols
+
+=> Nested col works same as previous cols which we have created
 
 
-=>  you can also use six different bootstrap breakpoints in order class to decide the position of different col's in row in different screen size
 
 Breakpoints points                              Classes
 
